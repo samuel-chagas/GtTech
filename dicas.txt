@@ -1,0 +1,9 @@
+***********************geral************************
+class --> CSS
+id --> JavaScript
+name --> envio de dados p/servidor
+
+**********************comandos***********************
+
+alt --> para selecionar para editar varias linhas
+ctrl --> selecionar itens no cod
