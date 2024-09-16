@@ -1,1 +1,1 @@
-# Gera-oTech
+gt-tech
