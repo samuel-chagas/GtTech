@@ -1,0 +1,37 @@
+Clonando Repositorio (Branch Main)
+git clone url
+
+Pegando a ultima versão do projeto (Branch Main)
+git pull
+
+Enviando o projeto para o github (Branch Main)
+git status
+git add .
+git commit -m "Mensagem do que voce fez"
+git push
+
+******************comandos para uma branch especifica************************************
+
+Clonando Branch specifica (Branch master)
+git clone url --branch Desenvolvimento  --single-branch
+
+Pegando a ultima versão do projeto (Branch master)
+git checkout master 
+pull origin master
+
+
+Enviando o projeto para o github para Branch especifica (Branch master)
+git status
+git add .
+commit -m "Mensagem do que voce fez"
+git push origin master
+
+
+
+
+
+
+
+
+
+
