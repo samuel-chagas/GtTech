@@ -1,14 +1,17 @@
-Clonando Repositorio (Branch Main)
+* Clonando Repositorio (Branch Main)
 git clone url
 
-Pegando a ultima versão do projeto (Branch Main)
+* Pegando a ultima versão do projeto (Branch Main)
 git pull
 
-Enviando o projeto para o github (Branch Main)
+* Enviando o projeto para o github (Branch Main)
 git status
 git add .
 git commit -m "Mensagem do que voce fez"
 git push
+
+* trocar branch
+ git branch -M main
 
 ******************comandos para uma branch especifica************************************
 
