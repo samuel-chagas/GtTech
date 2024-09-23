@@ -1,6 +1,7 @@
 
 /* Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root {
     --cor-principal: #5900ff;
@@ -68,6 +69,11 @@ nav ul {
     color: var(--cor-destaque);
 }
 
+.menu-responsivo{
+    font-size: 3rem;
+    display: none;
+}
+
 main {
     margin: 5rem auto;
 }
@@ -131,3 +137,49 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* --------------------- Media queries -------------------------------*/
+
+/* xs extra small - smartphone portrait (retrato) */
+@media (max-width: 36rem) {
+    main {
+        margin: 5rem auto;
+    }
+    
+    nav {
+        padding: 0.5rem 1rem;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .menu-responsivo {
+        display: block;
+    }
+
+    article {
+        margin: 0 0.5rem 1rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto {
+        overflow: visible;
+        margin-right: 0;
+    }
+    
+    .foto img {
+        width: 100%;
+    }
+
+
+    /* TESTE */
+    nav {
+        background-color: rgb(156, 8, 38);
+    }
+}
+
+
+
